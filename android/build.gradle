@@ -1,6 +1,11 @@
 group 'com.abedelazizshe.light_compressor'
 version '1.0-SNAPSHOT'
 
+
+kotlin {
+    jvmToolchain(1.8) 
+}
+
 buildscript {
     ext.kotlin_version = '1.8.21'
     repositories {
