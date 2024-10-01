@@ -2,6 +2,7 @@ group 'com.abedelazizshe.light_compressor'
 version '1.0-SNAPSHOT'
 
 
+
 buildscript {
     ext.kotlin_version = '1.9.0'
     repositories {
@@ -28,11 +29,6 @@ apply plugin: 'kotlin-android'
 android {
     namespace = "com.abedelazizshe.light_compressor"
     compileSdkVersion 33
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
 
 
     sourceSets {
